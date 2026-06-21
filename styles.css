@@ -1,0 +1,163 @@
+
+:root {
+  --gb-green: #0a6b3d;      /* vert principal (drapeau / institution) */
+  --gb-green-dark: #074a2a; /* vert foncé pour fonds sombres */
+  --gb-gold: #e2b13c;       /* accent or, discret */
+  --gb-dark: #1c1c1c;       /* noir doux pour footer/topbar */
+  --gb-light: #f5f6f5;      /* fond clair des sections */
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: #222;
+}
+
+/* ===== Topbar ===== */
+.topbar {
+  background: var(--gb-dark);
+  font-size: .8rem;
+}
+.topbar a {
+  color: #ddd;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.topbar a:hover {
+  color: var(--gb-gold);
+}
+
+/* ===== Navbar ===== */
+.navbar-brand img {
+  height: 55px;
+}
+.navbar .nav-link {
+  color: #222;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.show {
+  color: var(--gb-green);
+}
+.dropdown-item:hover {
+  background: var(--gb-light);
+  color: var(--gb-green);
+}
+
+/* ===== Hero / bannière ===== */
+.hero-banner {
+  background: var(--gb-green-dark);
+  height: 380px;
+  display: flex;
+  align-items: flex-end;
+}
+.hero-banner .overlay {
+  background: rgba(7, 74, 42, .72);
+  color: #fff;
+  width: 100%;
+  padding: 1.5rem;
+}
+.hero-banner .overlay .btn-light {
+  color: var(--gb-green-dark);
+  font-weight: 600;
+}
+
+/* ===== Titres de section ===== */
+.section-title {
+  border-left: 5px solid var(--gb-gold);
+  padding-left: .75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ===== Cartes actualités ===== */
+.news-card img {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
+.badge-sector {
+  background: var(--gb-green);
+}
+
+/* ===== Vidéos ===== */
+.video-thumb {
+  height: 160px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* ===== Opportunités ===== */
+.opportunity-item {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 1rem 0;
+}
+.opportunity-item .badge.bg-secondary {
+  background-color: var(--gb-green) !important;
+}
+
+/* ===== Événements ===== */
+.event-card {
+  background: var(--gb-light);
+  border-top: 3px solid var(--gb-gold);
+}
+
+/* ===== Liens utiles ===== */
+.useful-link-card {
+  background: var(--gb-light);
+  border-left: 4px solid var(--gb-green);
+  padding: 1.5rem;
+  height: 100%;
+}
+
+/* ===== Newsletter ===== */
+.newsletter-box {
+  background: var(--gb-green-dark);
+  color: #fff;
+  padding: 2rem;
+}
+.newsletter-box .btn-light {
+  color: var(--gb-green-dark);
+  font-weight: 600;
+}
+
+/* ===== Boutons outline réutilisés ===== */
+.btn-outline-dark:hover {
+  background: var(--gb-green);
+  border-color: var(--gb-green);
+}
+
+/* ===== Footer ===== */
+footer {
+  background: var(--gb-dark);
+  color: #ccc;
+  font-size: .9rem;
+}
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+footer a:hover {
+  color: var(--gb-gold);
+}
+footer h6 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: .85rem;
+  letter-spacing: .05em;
+}
+
+/* ===== Réseaux sociaux ===== */
+.social-icons a {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-right: .75rem;
+}
+.social-icons a:hover {
+  color: var(--gb-gold);
+}
+
+/* ===== Recherche ===== */
+.search-toggle {
+  cursor: pointer;
+}
+.search-toggle:hover {
+  color: var(--gb-green);
+}

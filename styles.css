@@ -6,6 +6,22 @@
   --gb-dark: #1c1c1c;       /* noir doux pour footer/topbar */
   --gb-light: #f5f6f5;      /* fond clair des sections */
 }
+.couleur{
+    background:linear-gradient(#34e89e,#0f3443);
+    
+}
+/*.couleur{
+    background:var(--gouv-dark);
+    font-size:.8rem;
+  }*/
+.couleur ul li{
+    color:#d9d9d9;
+    text-decoration:none;
+    padding:.45rem .75rem;
+    display:inline-block;
+    border-right:1px solid rgba(255,255,255,.1);
+    transition:color .15s;
+}
 
 body {
   font-family: system-ui, sans-serif;

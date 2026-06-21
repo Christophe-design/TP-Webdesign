@@ -26,7 +26,10 @@
 body {
   font-family: system-ui, sans-serif;
   color: #222;
+  background-image: url(IMG-20260619-WA0020.jpg);
+  background: cover center no-repeat fixed;
 }
+
 
 /* ===== Topbar ===== */
 .topbar {

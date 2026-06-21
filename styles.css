@@ -22,7 +22,12 @@
     border-right:1px solid rgba(255,255,255,.1);
     transition:color .15s;
 }
-
+@media (min-width: 768px) {
+  .nav-item.dropdown:hover.dropdown-menu{
+    display: block;
+    margin-top: 0;
+  }
+}
 body {
   font-family: system-ui, sans-serif;
   color: #222;
@@ -179,10 +184,4 @@ footer h6 {
 }
 .search-toggle:hover {
   color: var(--gb-green);
-}
-@media (min-width: 768px) {
-  .nav-item.dropdown:hover.dropdown-menu{
-    display: block;
-    margin-top: 0;
-  }
 }
